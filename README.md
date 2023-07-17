@@ -1,5 +1,5 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/amrzv/awesome-colab-notebooks)](https://hits.seeyoufarm.com)
-# Awesome colab notebooks collection for ML experiments
+# Some popular notebooks' collection for ML experiments
 ## Research
 | name | description | authors | links | colaboratory | update |
 |------|-------------|:--------|:------|:------------:|:------:|
