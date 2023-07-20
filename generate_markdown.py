@@ -165,8 +165,8 @@ def generate_table(fn: str, num_visible_authors: int, f):
     data = read_json(fn)
     colabs = sorted(data, key=lambda kv: kv['update'], reverse=True)
 
-    print('| Name | Description | Authors | Links | Open in TIR |', file=f)
-    print('|------|-------------|:--------|:------|:------------:|', file=f)
+    print('| Name | Description | Authors | Links | Collabora**TIR**y |', file=f)  # TODO: collaboraTIRy
+    print('|------|-------------|:--------|:------|:-----------------:|', file=f)
     for line in colabs:
         nb_item = {
             "name": line["name"],
