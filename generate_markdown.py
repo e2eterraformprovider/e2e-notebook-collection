@@ -16,7 +16,7 @@ def format_tir_url(url: str) -> str:
 
 def tir_url(url: str) -> str:
     url = format_tir_url(url)
-    return f'[![Open In TIR](images/open_in_tir.png)]({url})'
+    return f'[![Open In TIR](images/open-in-tir.png)]({url})'
 
 
 def doi_url(url: str) -> str:
